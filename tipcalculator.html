@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inge's Tip Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="tipcalculator.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <div id="calculator">
+            <form>
+                <p>How much was your bill?</p>
+                R <input id="billAmt" placeholder="Bill amount">
+
+                <p>How was the service?</p>
+                <select id="serviceQual">
+                    <option disabled selected value="0">Choose an option</option>
+                    <option value="0.2">20&#37; Outstanding</option>
+                    <option value="0.15">15&#37; Good</option>
+                    <option value="0.1">10&#37; It was ok</option>
+                    <option value="0.05">5&#37; Bad</option>
+                </select>
+
+            </form>
+
+            <p>How many people are sharing the bill?</p>
+            <input id=peopleAmt style="margin-right: 5px" type="text" placeholder="Number of people">People
+
+            <button type="button" id="calculate">Calculate</button>
+        </div>
+        <!--calculator end-->
+        <div id="totalTip">
+            <sup>R</sup>
+            <span id="tip">0.00</span>
+            <small id="each">Each</small>
+        </div>
+    </div>
+    <script type="text/javascript" src="tipcalculator.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,109 @@
+body {
+    background-image: url(2488802.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+#container {
+    display: block;
+    text-align: center;
+    background-color: rgba(252, 247, 248, 0.801);
+    border: solid;
+    border-color: rgb(207, 207, 207);
+    margin: 40px 10px auto 10px;
+    padding: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    background-color: rgb(63, 63, 83);
+    color: white;
+    text-align: center;
+    font-weight: 70;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 40px;
+    
+}
+
+p {
+    padding: 5px; 
+    font-size: 20px;
+    font-weight: 200;
+}
+
+input {
+    padding: 5px;
+    font-size: 17px;
+}
+
+.randSign {
+display: inline;
+font-size: 40px;
+}
+
+#serviceQual {
+    padding: 10px;
+    font-size: 17px;
+}
+
+#peopleAmt {
+    width: 50%; 
+}
+
+#billAmt {
+    font-size: 20px;
+    /*color: #2980b9;*/
+    color: black;
+    background-color: #f7f7f7;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+  }
+  
+ 
+button {   
+    display: block;
+    text-align: center;
+    margin: 20px auto 20px 100px;;
+    background-color: rgba(189, 174, 172, 0.932); 
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(146, 143, 143);
+}
+
+button:active {
+    position: relative;
+top: 2px;
+}
+
+#totalTip {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
